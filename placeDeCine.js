@@ -14,3 +14,4 @@ function projet () {
 //variable nbre de place du client
     let nbrPlace = +prompt("combien de place désirez-vous?")
 }
+//section nathan
