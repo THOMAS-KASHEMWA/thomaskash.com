@@ -29,7 +29,7 @@ for (let i = 0; i <= 20; i++) {
     salle1.push( 'A' + tab[i])
 }
 
-for (let i = 0; i < tab2.length; i++) {
+for (let i = 0; i < salle1.length; i++) {
     salle1[i] = ["libre"]
 }
 
