@@ -60,3 +60,29 @@ Test henri
 //        }
 //    }*/
 //     console.log(choixTab);
+
+    let dune = [
+        {
+            place: 'n°1',
+            dispo: 'libre'
+        },
+        {
+            place: 'n°2',
+            dispo: 'libre'
+        },
+        {
+            place: 'n°3',
+            dispo: 'occupée'
+        },
+        {
+            place: 'n°4',
+            dispo: 'libre'
+        },
+        {
+            place: 'n°5',
+            dispo: 'occupée'
+        },
+    ]
+    dune.forEach(function (element){
+        console.log(element.dispo);
+    });
