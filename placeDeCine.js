@@ -110,4 +110,3 @@ function projet () {
     }
     console.log(salle1);
 }
-
