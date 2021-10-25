@@ -1,7 +1,7 @@
 "use strict"
 
 let salle1 = ["dune"];
-let placeMax = 20;
+
 
 function dune(){
     let tab = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
@@ -22,7 +22,6 @@ function dune(){
     console.log(salle1);
 }
 
-console.log(salle1);
 function projet () {
 
 //variable nbre de place du client et choix du film
