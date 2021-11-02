@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+}
+h1{
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: orangered;
+}
+
+/*#blockFilm{
+    width: 80%;
+    margin: 150px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 30px;
+}*/
+/*
+#blockFilm img{
+    float: left;
+    position: absolute;
+    z-index: -10;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+.image1{
+
+    z-index: 100;
+    transition-timing-function: smooth;
+
+}
+
+.image1:hover{
+    background-color: #333;
+
+}
+
+#blockFilm div{
+    float: left;
+    margin: 100px 75px 150px 100px;
+}
+div p{
+    width: 310px;
+    height: 300px;
+}
+
+
+#nombrePlace{
+    border: black solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: orangered;
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 60px;
+}
+*/
+
+.block{
+    width: 310px;
+    height: 420px;
+    float: left;
+}
+
+
+.block img{
+    position: absolute;
+    z-index: 100;
+}
+
+.block img:hover{
+    position: absolute;
+    z-index: -20;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.content{
+    padding: 20px 20px 0 20px;
+    text-align: justify;
+    opacity: 0;
+    z-index: 50;
+}
+
+.content .description {
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 0 75px 0;
+    opacity: 0;
+}
+
+
+/* animations en X*/
+
+.content .bouton{
+    opacity: 1;
+    transition: opacity: 0;
+    transform: translate3d(-100%,0,0);
+    width: 300px;
+    text-align: justify;
+}
+
+/*rendre visible*/
+
+.block:hover .content .border, .block:hover .content .description, .block:hover .content                        {
+    opacity: 0;
+    transform: translate3d(0,0,0);
+}
+
